@@ -11,7 +11,7 @@ This package contains three different algorithms that all calculate the knapsack
 \seealso{
 Useful links:
 \itemize{
-  \item \url{https://github.com/wountoto/Lab6_R}
+  \item \url{https://github.com/wountoto/Lab6_R https://en.wikipedia.org/wiki/Knapsack_problem#0.2F1_knapsack_problem}
 }
 
 }

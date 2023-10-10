@@ -3,6 +3,9 @@
 \name{greedy_knapsack}
 \alias{greedy_knapsack}
 \title{Greedy heuristic search}
+\source{
+\url{https://en.wikipedia.org/wiki/Knapsack_problem#0.2F1_knapsack_problem}
+}
 \usage{
 greedy_knapsack(x, W)
 }

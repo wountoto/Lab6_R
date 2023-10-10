@@ -3,6 +3,9 @@
 \name{knapsack_dynamic}
 \alias{knapsack_dynamic}
 \title{Dynamic programming search}
+\source{
+\url{https://en.wikipedia.org/wiki/Knapsack_problem#0.2F1_knapsack_problem}
+}
 \usage{
 knapsack_dynamic(x, W)
 }

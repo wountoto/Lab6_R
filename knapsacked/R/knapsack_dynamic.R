@@ -12,6 +12,8 @@
 #'
 #'@export
 #'
+#'@source \url{https://en.wikipedia.org/wiki/Knapsack_problem#0.2F1_knapsack_problem}
+#'
 #'@examples
 #'# This is an example of how to use the function
 #'knapsack_dynamic(x = knapsack_objects[1:8,], W = 3500)

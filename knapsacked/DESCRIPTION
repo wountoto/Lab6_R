@@ -9,7 +9,7 @@ Authors@R: c(
 	person(given="Siddhesh",family="Sreedar",email="sidsr770@student.liu.se",role = c("aut")))
 Description: This package contains three different algorithms that all calculate the knapsack problem in different ways. The algorithms included is the brute force method with an option to parallelize the computations, dynamic programming and greedy heuristic. They all differ in computational complexity where the brute force is the sloest and greedy heurisitc is the quickest. However, brute force is the only algorithm that guarantees an optimal solution, while greedy heuristic only runs until a certain threshold of the optimal solution is attained.
 Encoding: UTF-8
-URL: https://github.com/wountoto/Lab6_R
+URL: https://github.com/wountoto/Lab6_R https://en.wikipedia.org/wiki/Knapsack_problem#0.2F1_knapsack_problem
 Imports:
 	devtools, parallel, doParallel
 Depends: R (>= 3.5.0)

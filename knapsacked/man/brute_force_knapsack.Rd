@@ -3,6 +3,9 @@
 \name{brute_force_knapsack}
 \alias{brute_force_knapsack}
 \title{Brute force search with parallelization}
+\source{
+\url{https://en.wikipedia.org/wiki/Knapsack_problem#0.2F1_knapsack_problem}
+}
 \usage{
 brute_force_knapsack(x, W, parallel = FALSE)
 }

@@ -14,3 +14,7 @@ Imports:
 	devtools, foreach, doParallel
 Depends: R (>= 3.5.0)
 RoxygenNote: 7.2.3
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr

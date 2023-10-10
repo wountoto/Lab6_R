@@ -1,3 +1,21 @@
+#'@title Greedy heuristic search
+#'
+#'@name greedy_knapsack
+#'
+#'@param x A data frame consisting of columns w = weights and v = value for individual objects
+#'
+#'@param W The capacity of the knapsack
+#'#'
+#'@returns 
+#'A list containing the maximum value that could be fit in the knapsack and row wise elements in the data that was added together
+#'
+#'@export
+#'
+#'@examples
+#'# This is an example of how to use the function
+#'greedy_knapsack(x = knapsack_objects[1:8,], W = 3500)
+#'
+
 greedy_knapsack <-
 function(x, W){
   # checking the input

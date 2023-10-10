@@ -1,3 +1,26 @@
+#'@title Brute force search with parallelization
+#'
+#'@name brute_force_knapsack
+#'
+#'@param x A data frame consisting of columns w = weights and v = value for individual objects
+#'
+#'@param W The capacity of the knapsack
+#'
+#'@param parallel Whether parallelization should be used or not. Defaults to FALSE.
+#'
+#'
+#'@returns 
+#'A list containing the maximum value that could be fit in the knapsack and row wise elements in the data that was added together
+#'
+#'@export
+#'
+#'@import doParallel parallel
+#'
+#'@examples
+#'# This is an example of how to use the function
+#'brute_force_knapsack(x = knapsack_objects[1:8,], W = 3500)
+#'
+
 brute_force_knapsack <-
 function(x,W, parallel=FALSE){
   # checking the input

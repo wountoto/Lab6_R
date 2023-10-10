@@ -22,8 +22,3 @@ A list containing the maximum value that could be fit in the knapsack and row wi
 \description{
 Brute force search with parallelization
 }
-\examples{
-# This is an example of how to use the function
-brute_force_knapsack(x = knapsack_objects[1:8,], W = 3500)
-
-}

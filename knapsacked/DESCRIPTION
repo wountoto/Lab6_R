@@ -11,10 +11,12 @@ Description: This package contains three different algorithms that all calculate
 Encoding: UTF-8
 URL: https://github.com/wountoto/Lab6_R https://en.wikipedia.org/wiki/Knapsack_problem#0.2F1_knapsack_problem
 Imports:
-	devtools, parallel, doParallel
+	devtools, parallel, doParallel, testthat
 Depends: R (>= 3.5.0)
 RoxygenNote: 7.2.3
 Suggests: 
     knitr,
     rmarkdown
 VignetteBuilder: knitr
+License: MIT + file LICENSE
+LazyData: true

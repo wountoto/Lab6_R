@@ -1,4 +1,4 @@
-context("knapsack_dynamic")
+#context("knapsack_dynamic")
 
 
 suppressWarnings(RNGversion(min(as.character(getRversion()),"3.5.3")))

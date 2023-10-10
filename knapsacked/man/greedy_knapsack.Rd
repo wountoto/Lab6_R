@@ -21,8 +21,3 @@ A list containing the maximum value that could be fit in the knapsack and row wi
 \description{
 Greedy heuristic search
 }
-\examples{
-# This is an example of how to use the function
-greedy_knapsack(x = knapsack_objects[1:8,], W = 3500)
-
-}

@@ -56,13 +56,13 @@ greedy_knapsack(x = knapsack_objects[1:800,], W = 3500)
 ```
 Question: How much time does it takes to run the algorithm for n = 1000000 objects?
 ```{r}
-n <- 1000000
-knapsack_objects <-
+n2 <- 1000000
+knapsack_objects2 <-
 data.frame(
 w=sample(1:4000, size = n, replace = TRUE),
-v=runif(n = n, 0, 10000)
+v=runif(n = n2, 0, 10000)
 )
-system.time(greedy_knapsack(x = knapsack_objects[1:1000000,], W = 15000))
+system.time(greedy_knapsack(x = knapsack_objects2[1:1000000,], W = 15000))
 ```
 
 
@@ -75,3 +75,17 @@ Question: What performance gain could you get by trying to improving your code?
 - the greedy_knaspsack code runs very fast and there was nothing needed to improve there. 
 
 All of the above helped slightly improve the system.time()
+
+
+
+```{r,warning=FALSE, message=FALSE}
+
+
+profvis::profvis(brute_force_knapsack(x = knapsack_objects[1:20,], W = 3500))
+
+profvis::profvis(brute_force_knapsack(x = knapsack_objects[1:20,], W = 3500, parallel=TRUE))
+```
+
+For our computer its faster not to do the calculations on multiple cores as the function to split it into clusters takes most of the time when not using more than 16 rows from the knapsack object. If that process would go faster then the parallelize brute force search would go faster than on one core. 
+
+But when trying the functions on 20 rows then the parallelize function makes the computation faster(7 seconds vs 8.5 on our computer). 
